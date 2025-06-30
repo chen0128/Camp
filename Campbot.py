@@ -8,7 +8,7 @@ from typing import List, Dict, Optional, Tuple
 from threading import Lock
 
 # -----------------------------  配置区域  ------------------------------------ #
-CLIENT_KEY = os.getenv("YESCAPTCHA_KEY", "7ddecc3d151bf99d97f7cd702b2d94082af78dcc56492")
+CLIENT_KEY = os.getenv("YESCAPTCHA_KEY", "你的YESCAPTCHA_KEY")
 WEBSITE_URL = "https://faucet.campnetwork.xyz/"
 WEBSITE_KEY = "5b86452e-488a-4f62-bd32-a332445e2f51"
 MAX_WORKERS = 3
